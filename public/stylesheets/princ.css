@@ -1,0 +1,181 @@
+body {
+	font: 100%/1 Verdana, Arial, Helvetica, sans-serif;
+	background-size:cover;
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	text-align:justify;
+}
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+a img { 
+	border: none;
+}
+a:link {
+	background-color:rgba(0,102,0,0.6);
+	color:rgba(204,204,51,1);
+	text-decoration: underline; 
+}
+a:visited {
+	background-color:rgba(0,102,0,0.6);
+	color:rgba(204,204,51,1);
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	background-color:rgba(255,255,255,0.5);
+	color:rgba(0,51,255,1);
+	text-decoration: underline;
+}
+.container {
+	width: 100%;
+	margin: 5 auto; 
+}
+header {
+	padding-right:15px;
+}
+.sidebar1 {
+	float: left;
+	width: 14%;
+	padding: 10px;
+}
+.content {
+	padding: 10px 0;
+	margin-left:1%;
+	width: 64%;
+	height: 100%;
+	float: left;
+	color:rgba(0,0,0,1);
+	background-color:rgba(255,255,255,0.8);
+	border-color:#666666;
+	border-radius:5% 5%;
+}
+.content a:link, .content a:active, .content a:focus, .content a:visited { 
+	color:rgba(0,0,255,1);
+	background-color:transparent;
+	text-decoration: underline;
+}
+.content a:hover{
+	color:rgba(255,0,0,1);
+	background-color:transparent;
+	text-decoration: underline;
+}
+aside {
+	float: left;
+	width: 100%;
+}
+aside a:link, aside a:focus, aside a:active, aside a:visited { 
+	color:rgba(255,255,255,1);
+	background-color:transparent;
+	text-decoration: none;
+}
+aside a:hover{
+	color:rgba(255,255,255,1);
+	background-color:transparent;
+	text-decoration: underline;
+}
+aside1 {
+	float: right;
+	width: 16%;
+	padding-left:12px;
+	padding-right:10px;
+	background-size:100% 100%;
+	text-wrap:supress;
+}
+aside2 {
+	float: right;
+	width: 16%;
+	margin-right:5px;
+	margin-left: 5px;
+	text-wrap:supress;
+}
+aside2 a:link, aside2 a:focus, aside2 a:active, aside2 a:visited, aside2 a:hover { 
+	color:rgba(255,255,255,1);
+	background-color:transparent;
+	text-decoration: none;
+}
+.content ul, .content ol {
+	padding: 0 15px 15px 40px;
+}
+nav ul {
+	list-style: none; 
+}
+nav ul li {
+	
+}
+nav ul a, nav ul a:visited { 
+	display: block; 
+	text-decoration: underline;
+}
+nav ul a:hover, nav ul a:active, nav ul a:focus { 
+	text-decoration:underline;
+}
+
+footer {
+	padding: 10px 0;
+	position: relative;
+	clear: both; 
+}
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+header, article, footer, aside, nav, figure {
+	display: block;
+}
+aside{
+	text-align:left;
+}
+section{
+	display: block;
+	margin-left:10px;
+	margin-right:10px;
+}
+nav {
+	background-size:100% 100%;
+	padding-bottom:5px;
+	border-radius:10%;
+	text-align:left;
+}
+th {	
+	text-align:center;
+}
+#tdcon {
+	color:rgba(0,0,255,1);
+	padding-right:5px;
+	text-decoration:underline;
+}
+#td1 {
+	text-align:left;	
+}
+#td2{
+	text-align:right;	
+}
+#td3{
+	text-align:center;
+}
+#err{
+	color:#FF0000;
+}
+#exi {
+	color:#0000FF;	
+}
+#td1 {
+	text-align:left;	
+}

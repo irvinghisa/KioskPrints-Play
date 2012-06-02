@@ -1,0 +1,19 @@
+#{extends 'main.html' /}
+#{set title:'Subir Archivos' /}
+
+<section>
+    <h2>Subir Archivos</h2>
+    <p>Puedes subir tus archivos (pesen menos de <b>10Mb</b>). Los archivos permitidos son Word(.doc, .docx), Excel(.xls, .xlsx), PowerPoint(.ppt, .pptx) y PDF(.pdf).</p><hr/>
+    <form action="" method="post" enctype="multipart/form-data">
+		<label for="archivo">Nombre Archivo:</label>
+		<input type="file" name="archivo" id="archivo" /> 
+		<br/>
+		<input type="submit" name="Subir" value="Subir" />
+	</form>
+        <b id="exi">Archivo  subido con exito</b>
+        	<b id="err">
+        	Ya subiste un total de 10 Archivos
+        	Archivo Invalido</b>
+        <hr/>
+        <p><b>Nota:</b> Solo podrás subir un máximo de 10 archivos</p>
+</section>
